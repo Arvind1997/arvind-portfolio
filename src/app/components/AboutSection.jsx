@@ -49,7 +49,7 @@ const AboutSection = () => {
         </div>
         <div className='col-span-2'>
             <h2 className='poppins-regular text-4xl font-semibold mb-6 text-[#02AABD]'>
-              Y'all wanna know <strong>'bout lil'</strong> ol' me?
+              Y&apos;all wanna know <strong>&apos;bout lil&apos;</strong> ol&apos; me?
             </h2>
         </div>
       </div>
