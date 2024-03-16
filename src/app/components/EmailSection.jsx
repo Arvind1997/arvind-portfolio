@@ -60,13 +60,13 @@ const EmailSection = () => {
     className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4'>
         <div>
             <h5 className='text-xl font-bold text-white my-2'>
-                Let's Connect
+                Let&apos;s Connect
             </h5>
             <p className='text-[#ADE7BE] mb-4 max-w-md break-all'>
                 {" "}
-                I'm on the lookout for fresh opportunities, and my inbox is
+                I&apos;m on the lookout for fresh opportunities, and my inbox is
                 ready for your messages. Whether you have queries or just 
-                want to drop a greeting, I'll do my utmost to respond 
+                want to drop a greeting, I&apos;ll do my utmost to respond 
                 promptly and enthusiastically!
             </p>
             <div className='socials flex flex-row gap-2'>

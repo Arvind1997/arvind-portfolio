@@ -34,10 +34,10 @@ const AboutSection = () => {
       <div className='col-span-3'>
             
             <p className='text-base lg:text-lg break-all'>
-            Well, howdy folks! I'm Arvind Kumar, currently wranglin' my way through a Masters in 
-            Data Science over at Indiana University Bloomington. Y'all can reckon on me to lasso them data streams 
-            like a seasoned data engineer oughta. When I ain't rustlin' up data, you might catch me out on the field 
-            swingin' a cricket bat or gallivantin' 'round the globe, explorin' every nook and cranny this world's got 
+            Well, howdy folks! I&apos;m Arvind Kumar, currently wranglin&apos; my way through a Masters in 
+            Data Science over at Indiana University Bloomington. Y&apos;all can reckon on me to lasso them data streams 
+            like a seasoned data engineer oughta. When I ain&apos;t rustlin' up data, you might catch me out on the field 
+            swingin&apos; a cricket bat or gallivantin&apos; &apos;round the globe, explorin&apos; every nook and cranny this world&apos;s got 
             to offer. </p>
             <br/>
             <p className='text-base lg:text-lg break-all'>

@@ -50,7 +50,7 @@ const CurrentSection = () => {
             className='text-white mb-4 text-4xl lg:text-6xl font-extrabold'>
               <span
               className="text-transparent bg-clip-text bg-gradient-to-r from-[#02AABD] to-[#00CDAC]">
-                Howdy, I'm
+                Howdy, I&apos;m
               </span>
               <br></br>
               <TypeAnimation
@@ -71,8 +71,8 @@ const CurrentSection = () => {
               />
 
             </motion.h1>
-            <p className='text-white text-base sm:text-lg lg:text-xl mb-6'>Currently working towards a Master's degree in 
-            Data Science at Indiana University, and I've got a real knack for Data Engineering!
+            <p className='text-white text-base sm:text-lg lg:text-xl mb-6'>Currently working towards a Master&apos;s degree in 
+            Data Science at Indiana University, and I&apos;ve got a real knack for Data Engineering!
             </p>
             <div className='mt-5 mb-5 -mx-3'>
             {/* <--Resume--> */}
