@@ -53,7 +53,7 @@ const ProjectCard = ({imgUrl, title, description, gitUrl}) => {
                 </Link>
             </div>
         </div>
-        <div class="p-5 row-span-1">
+        <div className="p-5 row-span-1">
             <a href="#">
                 <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
             </a>
