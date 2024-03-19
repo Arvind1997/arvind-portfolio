@@ -30,7 +30,7 @@ const EmailSection = () => {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(formdata)
+            body: JSON.stringify(formData)
         })
 
         const response = await fetch(endpoint, options);
