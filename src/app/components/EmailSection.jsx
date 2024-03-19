@@ -25,7 +25,7 @@ const EmailSection = () => {
             message: e.target.message.value
         }
 
-        await fetch('/api/send', {
+        const options = await fetch('/api/send', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -33,11 +33,7 @@ const EmailSection = () => {
             body: JSON.stringify(formData)
         })
 
-        const response = await fetch(endpoint, options);
-        console.log(response)
-        const resData = await response;
-
-        if(response.status === 200) {
+        if(options.status === 200) {
             console.log('Message Sent!');
             setEmailSubmitted(true)
         }
