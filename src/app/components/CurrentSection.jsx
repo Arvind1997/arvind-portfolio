@@ -81,7 +81,8 @@ const CurrentSection = () => {
               <button
               className="w-full items-center inline-block sm:w-full mb-2 rounded bg-[#434141] border border-[#636161]
                hover:bg-black px-6 py-2.5 font-medium uppercase leading-normal shadow-md transition duration-150 ease-in-out 
-               hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+               hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+               href="https://professional-bucket.s3.amazonaws.com/ArvindKumar_Resume_20240317.pdf">
                 <div className='inline-block'>
                   <GrDocument />
                   </div>

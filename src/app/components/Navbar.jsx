@@ -17,7 +17,7 @@ const navLinks = [
     },
     {
         title: "Resume",
-        path: "https://professional-bucket.s3.amazonaws.com/ArvindKumar_Resume_20240221.pdf"
+        path: "https://professional-bucket.s3.amazonaws.com/ArvindKumar_Resume_20240317.pdf"
     }
 ];
 
