@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 import { motion, useInView, useAnimation } from 'framer-motion'
+import { GrDocument } from "react-icons/gr";
 
 const draw = {
   hidden: { pathLength: 0, opacity: 0 },
@@ -43,7 +44,7 @@ const CurrentSection = () => {
       transition={{ duration: 0.5, delay: 0.25 }}
     >
         <motion.div
-        className="grid grid-cols-1 sm:grid-cols-12 mt-4">
+        className="grid grid-cols-1 sm:grid-cols-12 mt-4 h-auto w-auto justify-between">
           <div
           className="col-span-6 place-self-center">
             <motion.h1
@@ -55,9 +56,8 @@ const CurrentSection = () => {
               <br></br>
               <TypeAnimation
                   sequence={[
-                    // Same substring at the start will only be typed out once, initially
                     'Arvind Kumar',
-                    1000, // wait 1s before replacing "Mice" with "Hamsters"
+                    1000, 
                     'Data Engineer',
                     1000,
                     'Data Analyst',
@@ -78,19 +78,8 @@ const CurrentSection = () => {
             {/* <--Resume--> */}
             <a className="px-3 py-2" href="https://professional-bucket.s3.amazonaws.com/ArvindKumar_Resume_20240221.pdf" target="_blank">
               <button
-              type="button"
-              data-twe-ripple-init
-              data-twe-ripple-color="light"
-              className="w-full  sm:w-fit mb-2 inline-block rounded bg-[#434141] border border-[#636161] hover:bg-black px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                <span className="[&>svg]:h-4 [&>svg]:w-4">
-                <svg className="h-8 w-8 items-center text-white-500"  width="24" height="24" viewBox="0 0 20 20" strokeWidth="2" 
-                stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  
-                <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M14 3v4a1 1 0 0 0 1 1h4" />  
-                <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />  
-                <line x1="9" y1="7" x2="10" y2="7" />  <line x1="9" y1="13" x2="15" y2="13" />  
-                <line x1="13" y1="17" x2="15" y2="17" />
-                </svg>
-                </span>
+              className="w-full sm:w-fit mb-2 mx-auto rounded bg-[#434141] border border-[#636161] hover:bg-black px-6 py-2.5 font-medium uppercase leading-normal shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                <GrDocument />
               </button>
             </a>
             {/* <--LinkedIn--> */}
@@ -149,62 +138,64 @@ const CurrentSection = () => {
           </a>
           </div>
           </div>
-          <div className='col-span-6 place-self-center mt-5 lg:mt-0'>
+          <div className='col-span-6 mt-5 lg:mt-0 content-center'>
           <motion.svg
-            width="600"
-            height="600"
-            viewBox="0 0 800 700"
+            width="auto"
+            height="auto"
+            viewBox="0 0 1000 800"
             initial="hidden"
             animate="visible"
+            className={'text-transparent bg-clip-text bg-gradient-to-r from-[#02AABD] to-[#00CDAC]'}
           >
       <motion.line
-        x1="100"
-        y1="300"
-        x2="300"
-        y2="500"
+        x1="150"
+        y1="400"
+        x2="350"
+        y2="600"
         stroke="#02AABD"
         variants={draw}
         custom={2}
       />
       <motion.line
-        x1="100"
-        y1="300"
-        x2="300"
-        y2="100"
+        x1="150"
+        y1="400"
+        x2="350"
+        y2="200"
         stroke="#02AABD"
         variants={draw}
         custom={2.5}
       />
 
       <motion.line
-        x1="540"
-        y1="100"
-        x2="740"
-        y2="300"
+        x1="590"
+        y1="200"
+        x2="790"
+        y2="400"
         stroke="#02AABD"
         variants={draw}
         custom={2}
       />
 
       <motion.line
-        x1="740"
-        y1="300"
-        x2="540"
-        y2="500"
+        x1="790"
+        y1="400"
+        x2="590"
+        y2="600"
         stroke="#02AABD"
         variants={draw}
         custom={2}
       />
 
       <motion.line
-        x1="500"
-        y1="50"
-        x2="340"
-        y2="550"
-        stroke="#02AABD"
+        x1="550"
+        y1="150"
+        x2="390"
+        y2="650"
+        stroke="#00CDAC"
         variants={draw}
         custom={2}
       />
+      
   
     </motion.svg>
           </div>  

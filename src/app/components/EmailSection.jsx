@@ -54,7 +54,7 @@ const EmailSection = () => {
             <h5 className='text-xl font-bold text-white my-2'>
                 Let&apos;s Connect
             </h5>
-            <p className='text-[#ADE7BE] mb-4 max-w-md break-all'>
+            <p className='text-[#ADE7BE] mb-4 max-w-md text-balance break-normal'>
                 {" "}
                 I&apos;m on the lookout for fresh opportunities, and my inbox is
                 ready for your messages. Whether you have queries or just 

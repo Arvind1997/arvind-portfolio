@@ -113,7 +113,7 @@ const ProjectsSection = () => {
         bg-clip-text bg-gradient-to-tr from-[#02AABD] to-[#02aabd94]'>
             Projects
         </h2>
-        <div className='text-white flex flex-row justify-center items-center gap-3 py-10'>
+        <div className='text-white flex flex-col sm:flex-row justify-center items-center gap-3 py-10'>
             <ProjectTag name = "All" isSelected={tag === "All"} onClick={handleChange} />
             <ProjectTag name = "Data Engineering" isSelected={tag === "Data Engineering"} onClick={handleChange} />
             <ProjectTag name = "Data Visualization" isSelected={tag === "Data Visualization"} onClick={handleChange} />

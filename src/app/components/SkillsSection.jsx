@@ -10,7 +10,7 @@ const TAB_DATA = [
         id: "Skills",
         content: (
             <div>
-                <div className='md:grid grid-cols-4'>
+                <div className='grid md:grid-cols-4'>
                     <div className='col-start-2 col-end-4'>
                         <h2 className='text-2xl py-3'>Data Engineering Tools</h2>
                         <p className=' px-5 py-1'><strong className='font-extrabold text-lg'>Programming Languages:{" "}</strong>Python, R, PySpark</p>

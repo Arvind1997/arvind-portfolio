@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Navlink from './Navlink'
 import { Bars3Icon, XmarkIcon }  from "@heroicons/react/24/solid";
 import MenuOverlay from './MenuOverlay'
-import Head from 'next/head'
+import { Albert_Sans } from 'next/font/google';
 
 const navLinks = [
     {
@@ -21,13 +21,19 @@ const navLinks = [
     }
 ];
 
+const estonia = Albert_Sans({
+    subsets: ['latin'],
+    weight: ["900"],
+    style: ['normal', 'italic']
+})
+
 const Navbar = () => {
 
     const [navbarOpen, setNavbarOpen] = useState(false) 
     return (
-    <nav className='fixed top-0 right-0 left-0 z-10 bg-[#121212] bg-opacity-100'>
-        <div className='flex flex-wrap items-center justify-between mx-auto px-4 py-2'>
-            <Link href= {'/'} className='poppins-regular text-3xl text-white font-semibold'>
+    <nav className='fixed w-full top-0 right-0 left-0 z-10 bg-[#000000] bg-opacity-85'>
+        <div className='flex flex-wrap items-center justify-between mx-auto px-4 py-4'>
+            <Link href= {'/'} className={`'${estonia} text-2xl text-white font-semibold'`}>
                 arvind kumar.
             </Link>
             <div className='mobile-menu block md:hidden'>

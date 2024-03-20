@@ -45,8 +45,7 @@ body {
   font-style: normal;
 }
 
-circle,
-rect,
+
 line {
   stroke-width: 15px;
   stroke-linecap: round;
