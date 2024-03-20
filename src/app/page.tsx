@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main className={`" ${roboto.className} flex max-w-screen flex-col bg-gradient-to-r from-[#151414] via-[#282727] to-[#252424] "`}>
       <Navbar/>
-      <div className="container mx-auto px-8 py-8 mt-24">
+      <div className="container mx-auto px-10 py-8 mt-24">
         <CurrentSection />
         <AboutSection />
         <SkillsSection />

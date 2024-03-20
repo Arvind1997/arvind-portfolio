@@ -279,7 +279,7 @@ const SkillsSection = () => {
         animate={mainControls}
         transition={{ duration: 0.5, delay: 0.25 }}
     >
-        <div className='md:grid grid-cols-3'>
+        <div className='grid md:grid-cols-3'>
             <TabButton 
             selectTab={() => handleTabChange("Skills")} 
             active={tab === "Skills"}
