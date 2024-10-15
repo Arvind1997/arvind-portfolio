@@ -193,19 +193,20 @@ const TAB_DATA = [
                         <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white 
                         dark:border-gray-900 dark:bg-gray-700"></div>
                         <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                            Apr 2022 - Jul 2022
+                            Aug 2022 - Jul 2022
                         </time>
                         <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                             Infosys Ltd.
                         </h3>
                         <p class=" mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                            Test Analyst
+                            Data Analyst
                         </p>
                         <p className='mb-1 text-base font-normal text-gray-500 dark:text-gray-400 indent-10'>
-                            - Managed various aspects of database administration, ensuring smooth operation within an agile environment.
+                            - Utilized advanced data analysis techniques and tools like Python and SQL to drive insights and solutions within the Banking - Risk and Compliance domain. I developed Power BI reports, created credit risk models, and collaborated with cross-functional teams
+                              to enhance operational efficiency, compliance, and marketing strategies, leading to measurable improvements in business outcomes.
                         </p>
                     </li>
-                    <li class="mb-10 ms-4">
+                    {/* <li class="mb-10 ms-4">
                         <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white 
                         dark:border-gray-900 dark:bg-gray-700"></div>
                         <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
@@ -220,7 +221,7 @@ const TAB_DATA = [
                         <p className='mb-2 text-base font-normal text-gray-500 dark:text-gray-400 indent-10'>
                             - Led a significant migration project from Sybase to Oracle, demonstrating strong leadership and technical skills.
                         </p>
-                    </li>
+                    </li> */}
                     <li class="mb-10 ms-4">
                         <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white 
                         dark:border-gray-900 dark:bg-gray-700"></div>

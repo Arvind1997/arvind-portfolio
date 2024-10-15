@@ -5,6 +5,7 @@ import AboutSection from './components/AboutSection'
 import SkillsSection from './components/SkillsSection'
 import ProjectsSection from './components/ProjectsSection'
 import EmailSection from './components/EmailSection'
+import PublicationSection from './components/PublicationSection'
 import Footer from './components/Footer'
 import { Roboto, DM_Sans, PT_Sans } from '@next/font/google'
 
@@ -22,6 +23,7 @@ export default function Home() {
         <AboutSection />
         <SkillsSection />
         <ProjectsSection />
+        <PublicationSection />
         <EmailSection />
       </div>
       <Footer />
